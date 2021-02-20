@@ -10,4 +10,4 @@ This Project is designed to provide a descriptive ReadMe for a project, based of
 ![](assets/readMe.gif)
 
 ## The Generated README
-![Project Img](assets/appImg.PNG)
+![Project Img](assets/appImage.PNG)
