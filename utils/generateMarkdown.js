@@ -70,14 +70,23 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
 
-    return `## License 
-    ${renderLicenseBadge(license)}`;
+    return `${renderLicenseBadge(license)}`;
   
 }
 
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  
+  if (typeof data.haveGuidelines === 'undefined' ||  data.haveGuidelines === null)
+  {
+    theGuidelines = "None";
+  }
+  else
+  {
+    theGuidelines = data.haveGuidelines;
+  }
+
   return `# ${data.name}
 
 ##Table of Contents
@@ -85,21 +94,35 @@ function generateMarkdown(data) {
 <ol>
 <li>[Description](#Description)</li>
 <li>[Installation](#Installation)</li>
-<li>[Usage](#Usage)</li>
 <li>[License](#License)</li>
+<li>[Usage](#Usage)</li>
 <li>[Contributions](#Contributions)</li>
 <li>[Questions](#Questions)</li>
 <li>[Tests](#Tests)</li>
 </ol>
 
-##Description
+## Description
 ${data.description}
 
-##Installation
+## Installation
 ${data.install}
 
-##License
+## License  
 ${renderLicenseSection(data.license)}
+
+## Usage
+${data.useage}
+
+## Contribution Guidelines
+${theGuidelines}
+
+## Tests
+${data.tests}
+
+## Questions
+Please feel free to contact me using the following means.
+Github Username: ${data.gitName}  
+Email: ${data.email}  
 `;
 }
 
