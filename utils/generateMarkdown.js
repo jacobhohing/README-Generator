@@ -89,7 +89,7 @@ function generateMarkdown(data) {
 
   return `# ${data.name}
 
-##Table of Contents
+## Table of Contents
 
 <ol>
 <li>[Description](#description)</li>
