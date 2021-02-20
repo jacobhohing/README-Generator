@@ -1,14 +1,10 @@
-// TODO: Include packages needed for this application
+// Required Packages
 const inquirer = require("inquirer");
 const fs = require("fs");
 const validator = require("email-validator");
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
-// TODO: Create an array of questions for user input
-
-
-
-
+// Array of User Prompts
 const questions = [
     {
            
@@ -60,7 +56,7 @@ const questions = [
     {
         type: "list",
         message: "Which license would you like to use for your project?",
-        choices: ["Apache 2.0", "MIT", "No License"],
+        choices: ["Apache 2.0", "MIT", "Boost Software License 1.0","IBM Public License Version 1.0","ISC","MIT", "Mozilla", "The Unlicense", "No License"],
         name: "license"
  
     },
@@ -84,15 +80,14 @@ const questions = [
 
 ];
 
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
+// Function to write ReadMe File
 function writeFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
       err ? console.log(err) : console.log("The File was written successfully!");
     });
   }
 
+// Function to initiate prompts
 function init() {
     inquirer.prompt(questions).then((response) => {
         console.log("Generating file...")
@@ -100,7 +95,7 @@ function init() {
       });   
 }
 
-// TODO: Create a function to initialize app
+// Function to restart prompt questions
 function checkAnswer(val)
 {
     if (val == "restart")
@@ -108,7 +103,6 @@ function checkAnswer(val)
         init();
     }
 }
-
 
 // Function call to initialize app
 init();
