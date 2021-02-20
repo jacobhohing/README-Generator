@@ -2,18 +2,17 @@
 
 ## Table of Contents
 
-<ol>
-<li>[Description](#description)</li>
-<li>[Installation](#installation)</li>
-<li>[License](#license)</li>
-<li>[Usage](#usage)</li>
-<li>[Contributions](#contributions)</li>
-<li>[Questions](#questions)</li>
-<li>[Tests](#tests)</li>
-</ol>
+* [Description](#description)
+* [Installation](#installation)
+* [License](#license)
+* [Usage](#usage)
+* [Contributions](#contributions)
+* [Questions](#questions)
+* [Tests](#tests)
+
 
 ## Description
-Its a Test
+Its a test
 
 ## Installation
 Nope

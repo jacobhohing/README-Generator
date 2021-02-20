@@ -91,15 +91,14 @@ function generateMarkdown(data) {
 
 ## Table of Contents
 
-<ol>
-<li>[Description](#description)</li>
-<li>[Installation](#installation)</li>
-<li>[License](#license)</li>
-<li>[Usage](#usage)</li>
-<li>[Contributions](#contributions)</li>
-<li>[Questions](#questions)</li>
-<li>[Tests](#tests)</li>
-</ol>
+* [Description](#description)
+* [Installation](#installation)
+* [License](#license)
+* [Usage](#usage)
+* [Contributions](#contributions)
+* [Questions](#questions)
+* [Tests](#tests)
+
 
 ## Description
 ${data.description}
