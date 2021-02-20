@@ -7,21 +7,21 @@
 * [License](#license)
 * [Usage](#usage)
 * [Contributions](#contributions)
-* [Questions](#questions)
 * [Tests](#tests)
+* [Questions](#questions)
 
 
 ## Description
 Its a test
 
 ## Installation
-Nope
+None
 
 ## License  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Usage
-Cant, sorry
+Im ok, thanks
 
 ## Contribution Guidelines
 None
