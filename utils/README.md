@@ -13,16 +13,16 @@
 </ol>
 
 ## Description
-Its a test
+Its a Test
 
 ## Installation
-Just test it
+Nope
 
 ## License  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Usage
-Try testing it
+Cant, sorry
 
 ## Contribution Guidelines
 None
