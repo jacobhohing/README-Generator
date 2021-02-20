@@ -92,13 +92,13 @@ function generateMarkdown(data) {
 ##Table of Contents
 
 <ol>
-<li>[Description](#Description)</li>
-<li>[Installation](#Installation)</li>
-<li>[License](#License)</li>
-<li>[Usage](#Usage)</li>
-<li>[Contributions](#Contributions)</li>
-<li>[Questions](#Questions)</li>
-<li>[Tests](#Tests)</li>
+<li>[Description](#description)</li>
+<li>[Installation](#installation)</li>
+<li>[License](#license)</li>
+<li>[Usage](#usage)</li>
+<li>[Contributions](#contributions)</li>
+<li>[Questions](#questions)</li>
+<li>[Tests](#tests)</li>
 </ol>
 
 ## Description
@@ -120,8 +120,8 @@ ${theGuidelines}
 ${data.tests}
 
 ## Questions
-Please feel free to contact me using the following means.
-Github Username: ${data.gitName}  
+Please feel free to contact me using the following means.  
+Github Username: ${data.gitName}   
 Email: ${data.email}  
 `;
 }
